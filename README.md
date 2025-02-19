@@ -30,6 +30,7 @@ To automatically restart GlobalProtect after a 5-second delay: `.\gp.ps1 -restar
 To stop GlobalProtect and wait for user input before restarting: `.\gp.ps1`
 ### Displaying Help:
 For help information at runtime: `.\gp.ps1 -help`
+
 Alternatively, you can use PowerShell’s built-in help system: `Get-Help .\gp.ps1 -Detailed`
 ### Logging:
 All actions are logged to: C:\Temp\Logs\gp_log.txt 
