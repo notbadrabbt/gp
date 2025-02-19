@@ -27,10 +27,10 @@ It is intended to be used to restart a stuck client, since there is no way to do
 ### Automatic Restart
 To automatically restart GlobalProtect after a 5-second delay: `.\gp.ps1 -restart`
 ### Interactive Mode:
-To stop GlobalProtect and wait for user input before restarting: `.\gp.ps1
+To stop GlobalProtect and wait for user input before restarting: `.\gp.ps1`
 ### Displaying Help:
-For help information at runtime: `.\gp.ps1 -help
-Alternatively, you can use PowerShell’s built-in help system: `Get-Help .\gp.ps1 -Detailed
+For help information at runtime: `.\gp.ps1 -help`
+Alternatively, you can use PowerShell’s built-in help system: `Get-Help .\gp.ps1 -Detailed`
 ### Logging:
 All actions are logged to: C:\Temp\Logs\gp_log.txt 
 
